@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<input placeholder="账号" bindinput="bindInput" data-key="account"/>
+<input  placeholder="密码" bindinput="bindInput" data-key="password"/>
+<button bindtap="getCode">授权</button>
+<button bindtap="getUserInfo">查询用户信息</button>
+
